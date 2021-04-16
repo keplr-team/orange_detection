@@ -93,9 +93,9 @@ class TFRecord:
         path = os.path.join(image_dir)
         data = pd.read_csv(csv_input)
         grouped = self.split(data, 'filename')
-
+        logging.info(grouped)
         for group in grouped:
-            logging.debug(group)
+            logging.info(group)
             try:
               tf_sample = self.create_tf(group, path)
               writer.write(tf_sample.SerializeToString())
