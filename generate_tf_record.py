@@ -98,7 +98,8 @@ class TFRecord:
             try:
               tf_sample = self.create_tf(group, path)
               writer.write(tf_sample.SerializeToString())
-            except:
+            except error:
+              logging.warn(error)
               continue
         logging.info('Successfully created the TFRecords: {}'.format(output_path))
 
