@@ -95,6 +95,7 @@ class TFRecord:
         grouped = self.split(data, 'filename')
 
         for group in grouped:
+            logging.debug(group)
             try:
               tf_sample = self.create_tf(group, path)
               writer.write(tf_sample.SerializeToString())
