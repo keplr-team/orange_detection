@@ -86,7 +86,6 @@ class TFRecord:
             'image/object/class/label':\
                                     dataset_util.int64_list_feature(classes),
         }))
-        logging.info(tf_sample)
         return tf_sample
 
     def generate(self, output_path, image_dir, csv_input) -> None:
@@ -95,7 +94,6 @@ class TFRecord:
         data = pd.read_csv(csv_input)
         grouped = self.split(data, 'filename')
         for group in grouped:
-            logging.info(group)
             try:
               tf_sample = self.create_tf(group, path)
               writer.write(tf_sample.SerializeToString())
