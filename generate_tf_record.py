@@ -93,7 +93,6 @@ class TFRecord:
         path = os.path.join(image_dir)
         data = pd.read_csv(csv_input)
         grouped = self.split(data, 'filename')
-        logging.info(grouped)
         for group in grouped:
             logging.info(group)
             try:
