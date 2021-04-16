@@ -86,6 +86,7 @@ class TFRecord:
             'image/object/class/label':\
                                     dataset_util.int64_list_feature(classes),
         }))
+        logging.info(tf_sample)
         return tf_sample
 
     def generate(self, output_path, image_dir, csv_input) -> None:
