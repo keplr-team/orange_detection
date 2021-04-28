@@ -3,11 +3,11 @@ item {
   id: 1
 }
 item {
-  name: "tomato"
+  name: "tomate"
   id: 2
 }
 item {
-  name: "pepper"
+  name: "poivron"
   id: 3
 }
 item {
@@ -28,5 +28,9 @@ item {
 }
 item {
   name: "mangue"
+  id: 8
+}
+item {
+  name: "champi"
   id: 8
 }
