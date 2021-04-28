@@ -38,3 +38,7 @@ item {
   name: "ananas"
   id: 10
 }
+item {
+  name: "pomme"
+  id: 10
+}
