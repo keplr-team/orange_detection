@@ -1,10 +1,7 @@
 filename,width,height,class,xmin,ymin,xmax,ymax,source
-IMG_2635.jpg,3024,4032,pot,256,399,1300,1349,none
-orange.jpg,3024,4032,orange,1292,376,1877,1026,none
-IMG_20210212_042707.jpg,4608,2176,orange,2499,1047,3113,1660,none
-IMG_2638.jpg,3024,4032,butter,956,1672,1433,2405,none
-orange.jpg,3024,4032,orange,1297,1101,1847,1676,none
-IMG_2637.jpg,3024,4032,pot,1706,1310,2994,1783,none
-orange.jpg,3024,4032,orange,347,216,882,826,none
-orange.jpg,3024,4032,orange,227,1011,887,1676,none
-IMG_2638.jpg,3024,4032,butter,744,2944,1222,3605,none
+orange.jpg,500,667,orange,331,70,456,176,none
+orange.jpg,500,667,orange,284,128,368,222,none
+IMG_20210212_042855.jpg,500,236,mangue,188,10,273,103,none
+orange.jpg,500,667,orange,33,166,141,267,none
+orange.jpg,500,667,orange,271,421,370,520,none
+IMG_20210212_042855.jpg,500,236,mangue,226,88,323,161,none

@@ -22,3 +22,11 @@ item {
   name: "butter"
   id: 6
 }
+item {
+  name: "beurre"
+  id: 7
+}
+item {
+  name: "mangue"
+  id: 8
+}
