@@ -32,5 +32,9 @@ item {
 }
 item {
   name: "champi"
-  id: 8
+  id: 9
+}
+item {
+  name: "ananas"
+  id: 10
 }
